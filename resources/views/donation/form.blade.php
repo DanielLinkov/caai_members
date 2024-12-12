@@ -50,6 +50,7 @@
 			<p class="card-text">
 				<x-larastrap::form route="submit">
 					<x-larastrap::email name=email label="Email *" required/>
+					<x-larastrap::text name=name label="Name *" required/>
 				</x-larastrap::form>
 			</p>
 		</div>
