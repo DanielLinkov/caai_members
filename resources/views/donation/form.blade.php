@@ -17,7 +17,7 @@
 					<label class="btn btn-outline-primary" for="btnradio2-period">Monthly</label>
 				</div>
 			</div>
-			<div class="card-text">
+			<div class="card-text p-3">
 				By supporting GAIA through a gift, you are contributing to our fight to make animal welfare an important issue.
 			</div>
 			<div class="card-text p-3">
@@ -33,6 +33,13 @@
 
 					<input type="radio" class="btn-check" name="btnradio-amount" id="btnradio4-amount" autocomplete="off">
 					<label class="btn btn-outline-primary" for="btnradio4-amount">&euro;1,500</label>
+				</div>
+			</div>
+			<div class="card-text p-3">
+				Choose your own amount
+				<div class="input-group mb-3">
+					<span class="input-group-text" id="basic-addon1">&euro;</span>
+					<input type="number" step="1" min="0" max="1500" oninput="this.value = this.value.replace(/[^0-9]/g, '');" placeholder="0" class="form-control">
 				</div>
 			</div>
 		</div>
