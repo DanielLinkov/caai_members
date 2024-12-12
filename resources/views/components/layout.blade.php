@@ -14,7 +14,7 @@
 
 	@stack('styles')
 </head>
-<body data-bs-theme="dark">
+<body data-bs-theme="light">
 	<div>{{ $slot }}</div>
 </body>
 </html>
