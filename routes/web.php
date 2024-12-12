@@ -9,3 +9,4 @@ Route::get('/', function () {
 });
 Route::get('/timezone',[Test::class,'timezone']);
 Route::get('/form',[Donation::class,'form']);
+Route::post('/submit',[Donation::class,'submit'])->name('submit');

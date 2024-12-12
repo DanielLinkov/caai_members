@@ -44,6 +44,17 @@
 			</div>
 		</div>
 	</div>
+	<div class="card text-start">
+		<div class="card-body">
+			<h4 class="card-title">My coordinates</h4>
+			<p class="card-text">
+				<x-larastrap::form route="submit">
+					<x-larastrap::email name=email label="Email *" required/>
+				</x-larastrap::form>
+			</p>
+		</div>
+	</div>
+	
 	
 </div>
 
@@ -51,10 +62,11 @@
 	<style>
 		.container{
 			background-color: rgba(211, 211, 211, 0.288);
+			padding:1rem;
 		}
 		.container > .card{
 			max-width:50rem;
-			margin:6rem auto;
+			margin:2rem auto;
 		}
 	</style>
 @endpush

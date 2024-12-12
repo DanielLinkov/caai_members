@@ -5,4 +5,7 @@ class Donation extends Controller{
 	public function form(){
 		return view('donation.form');
 	}
+	public function submit(){
+		return 'gotovo';
+	}
 }
