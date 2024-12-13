@@ -44,14 +44,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="card text-start">
+	<div class="card narrow text-start">
 		<div class="card-body">
 			<h4 class="card-title">My coordinates</h4>
 			<p class="card-text">
-				<x-larastrap::form route="submit">
-					<x-larastrap::email name=email label="Email *" required/>
-					<x-larastrap::text name=name label="Name *" required/>
-				</x-larastrap::form>
+				@livewire('donation-form')
 			</p>
 		</div>
 	</div>
@@ -68,6 +65,9 @@
 		.container > .card{
 			max-width:50rem;
 			margin:2rem auto;
+		}
+		.container > .card.narrow{
+			max-width:30rem;
 		}
 	</style>
 @endpush

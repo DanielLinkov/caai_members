@@ -13,6 +13,7 @@
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "laravel/ui": "^4.6",
+        "livewire/livewire": "^3.5",
         "madbob/larastrap": "^0.9.6"
     },
     "require-dev": {
